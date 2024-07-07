@@ -1,0 +1,47 @@
+.addBtn{
+    border-radius: 12px ;
+    background-color: #0d6efd;
+    color: white;
+}
+.addBtn:hover{
+    background-color: #212529;
+    color: #ff7900;
+}
+.deleteBtn{
+    border-radius: 12px ;
+    background-color: #dc3545;
+    color: white;
+}
+.deleteBtn:hover{
+    background-color: #212529;
+    color: #ff7900;
+}
+.editeBtn{
+    border-radius: 12px ;
+    background-color: #198754;
+    color: white;
+}
+.editeBtn:hover{
+    background-color: #212529;
+    color: #ff7900;
+}
+.updateBtn{
+    border-radius: 12px ;
+    background-color: #0d6efd;
+    color: white;
+}
+.updateBtn:hover{
+    background-color: #212529;
+    color: #ff7900;
+}
+.sendBtn{
+    border-radius: 12px ;
+    background-color: #212529;
+    color: #ff7900;
+}
+.sendBtn:hover{
+    color: white;
+}
+.done{
+    color: #ff7900;
+}

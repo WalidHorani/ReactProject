@@ -1,0 +1,24 @@
+.mainIcon{
+    font-size: 8vw;
+}
+.tempTitle{
+    font-size: 4vw;
+}
+.orange{
+    color:#ff7900;
+}
+.forcast{
+    margin-bottom: 1vh;
+}
+.validationErrorMsgLocation{
+    color: red;
+}
+.searchButon{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+.searchButon:hover{
+    background-color: black;
+    color: #ff7900;
+}
