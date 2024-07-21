@@ -1,0 +1,81 @@
+.recipeTitle{
+    color: black;
+    margin-bottom: 1vh;
+}
+.recipiImg{
+    border-radius: 5%;
+}
+.instructionsButton{
+    margin-right: 0.5vw;
+    padding: 0.5vh 0.5vw;
+    background-color: white;
+    color: black;
+    transition: all 500ms ease-in-out;
+}
+.ingredientsButton{
+    margin-right: 0.5vw;
+    padding: 0.5vh 0.5vw;
+    background-color: white;
+    color: black;
+    transition: all 500ms ease-in-out;
+}
+.ActiveButton{
+    background-color: #3a4145;
+    color: white;
+}
+.instructionsButton:hover,
+.ingredientsButton:hover{
+    background-color: black;
+    color: #ff7900;
+}
+.InstructionsP{}
+.IngredientsUL{
+    list-style-type: none;
+}
+.IngredientsLI{
+    margin-bottom: 0.5vh;
+}
+.ol{
+    list-style-type: none;
+}
+
+.informationContainer{
+    transition: height 500 ms ease-in-out;
+}
+
+@media(max-width:400px){
+    .recipiImg{
+        margin-bottom: 1vh
+    }
+    .ingredientsButton{
+        margin-right: 3vw;
+    }
+    .instructionsButton{
+        margin-right: 3vw;
+    }
+}
+@media (min-width:400px) and (max-width:575px) {
+    .recipiImg{
+        margin-bottom: 1vh
+    }
+    .ingredientsButton{
+        margin-right: 3vw;
+    }
+    .instructionsButton{
+        margin-right: 3vw;
+    }
+}
+@media (min-width:575px) and (max-width:767px){
+    .recipiImg{
+        margin-bottom: 1vh
+    }
+    .ingredientsButton{
+        margin-right: 3vw;
+    }
+    .instructionsButton{
+        margin-right: 3vw;
+    }
+}
+/* @media (min-width:767px) and (max-width:991px){}
+@media (min-width:991px) and (max-width:1200px){}
+@media (min-width:1200px){} */

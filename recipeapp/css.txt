@@ -1,0 +1,40 @@
+// transform
+transform: rotate(90deg)
+transform: rotateX(90deg) // rotate around the x axsis
+transform: rotateY(90deg)
+transform: rotateZ(90deg)
+
+transform: scale(1.5)
+transform: scale(1.5,1.5)
+transform: scaleX()
+transform: scaleY()
+transform: scaleZ()
+
+transform: translate(30px); // move to x
+transform: translateX(30px); // move to x
+transform: translateY(30px); // move to y
+transform: translate(30px,30px); // move to x and y
+transform: translateZ(30px); // move to y
+
+transform: skew(90deg)
+transform: skew(90deg,90deg)
+transform: skewX(90deg)
+transform: skewY(90deg)
+
+transform:rotate(30deg) scale(1.5) translate(30px) skew(90deg)
+
+//transation put in the element not in the hover 
+transition: transition-property     transitionDuration  transitionTimingFunction                                transitionDelay
+transition: [ propertyName | all ]  [ 1s | 100ms ]      [ linear | ease | ease-in | ease-in-out | ease-out ]    [ 3s ]
+
+//keyFrame
+animation : animationNameAnyNameYouWant animationDuration   animationTimingFunction                                 animationFillMode                   animationItrationCount              animationDelay 
+animation : animationNameAnyNameYouWant [ 1s | 100ms ]      [ linear | ease | ease-in | ease-in-out | ease-out ]    [ forwards | backwards | both ]     [ numberOfRepeting | infinite ]     [ 3s ]
+
+@keyframes animationName {
+    0%{}
+    25%{}
+    50%{}
+    75%{}
+    100%{}
+}

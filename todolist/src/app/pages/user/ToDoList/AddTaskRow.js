@@ -85,11 +85,9 @@ export default function AddTaskRow({setTaskTextSTR,tasksStateARR,setTasksStatARR
                                         <i className="bi bi-plus"></i>{translateFunction('Add Task')}
                                 </button>
                             </Elm>
-                            {!isValidStateBOL && 
                                 <Elm p={{c:'auto',jc:'s',ai:'c'}}>
-                                    <p>{translateFunction('Not Valid Task Try Again')}</p>
-                                </Elm>  
-                            }    
+                                    <p className={style.validationMsgErrorAddTask+' '+ (!isValidStateBOL?style.vis:'')  } >{translateFunction('Not Valid Task Try Again')}</p>
+                                </Elm> 
                         </Bg>
                     </Col>
                 </Row>
