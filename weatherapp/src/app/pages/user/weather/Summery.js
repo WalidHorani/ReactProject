@@ -1,8 +1,6 @@
 import {Row,Col,Bg,Elm} from '@/app/Components/General/Grid' ;
 import style from './weather.module.css' ;
 
-
-import { useEffect } from 'react';
 import { useContext } from 'react';
 import { TranslationContext } from '@/app/Context/TranslationContext';
 

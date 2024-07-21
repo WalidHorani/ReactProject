@@ -1,0 +1,29 @@
+/*  */
+.countryRecipeImgeIMG{
+    border-radius: 5%;
+}
+.countryRecipeTitle{
+    color: black;
+    text-align: center;
+}
+.countryRecipeTitleContainer{
+    height: 6vw;
+}
+@media(max-width:400px){
+    .countryRecipeTitleContainer{
+        height: auto;
+    }
+}
+@media (min-width:400px) and (max-width:575px) {
+    .countryRecipeTitleContainer{
+        height: auto;
+    }
+}
+@media (min-width:575px) and (max-width:767px){
+    .countryRecipeTitleContainer{
+        height: auto;
+    }
+}
+/* @media (min-width:767px) and (max-width:991px){}
+@media (min-width:991px) and (max-width:1200px){}
+@media (min-width:1200px){} */

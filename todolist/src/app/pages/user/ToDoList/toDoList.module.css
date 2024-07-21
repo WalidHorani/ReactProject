@@ -45,3 +45,13 @@
 .done{
     color: #ff7900;
 }
+
+.validationMsgErrorAddTask{
+    width: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 5s ease-in-out; 
+}
+.vis {
+    width: 200px;
+}
